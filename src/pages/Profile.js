@@ -3,7 +3,7 @@ import { useNavigate, useParams, useLocation } from "react-router-dom";
 
 const Profile = (props) => {
     let navigate = useNavigate();
-    let {username} = useParams();
+    let {username} = useParams();   
 
     const location = useLocation();
     console.log("location ==>", location)
